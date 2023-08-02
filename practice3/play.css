@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color:rgb(233, 229, 229);
+}
+
+.navbar ul li {
+    list-style: none;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color:#212529;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+.content img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.button{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    margin: 0 auto;
+}
+.div1 h1{
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.div1 p{
+    font-size: 0.75rem;
+}
+/* media querry is udes when u want to specify how things should looke like using css
+so the max:width is specifying that all the code should work for screens below that width
+if it is above it doesnt work so with min-width it can also be empty bracket */
+@media(max-width: 576px) {
+    .content2 h2, .content2 p {
+        text-align: center;
+    }
+
+    .content2 {
+        margin-top: 0.7rem;
+    }
+    .class h3{
+        text-align: center;
+    }
+
+    .navbar {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+}

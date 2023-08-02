@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="./to-do.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/fontawesome-free-5.15.3-web/css/all.css">
+</head>
+<body>
+    <div class="abso">
+      <div class="mode bg-white fw-bold rounded pb-5 pt-3" id="mode">
+       <div class="div1 mx-3">
+            <div class="para">Please Fill In Your Time</div>
+            <input type="time" class="bgtransparent border-0 text-center time" id="time" >
+            <div class="btn btn-dark text-white d-block mt-3 fw-bold" onclick="run()">Submit</div>
+       </div>
+       <span class="fw-bold timess" onclick="ramed()">&times;</span>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center p-5" id="bod">
+        <div id="overlay"></div>
+    <div>
+       <div class="display-5 fw-bold text-white mb-3" >To-Do List App</div>
+       <div class="input bg-white d-flex justify-content-between p-2">
+           <input type="text" class="bg-transparent border-0" id="input" placeholder="Enter Your Schedule">
+           <div class="d-flex">
+               <i class="far fa-clock mx-2 clock" onclick="ren()"></i>
+               <i class="fas fa-plus text-white bg-dark p-2 rounded-circle" onclick="run()"></i>
+           </div>
+        </div>
+               <div id="list"></div>
+   </div> 
+
+</div>
+<script src="./to-do.js"></script>
+    
+</body>
+</html>

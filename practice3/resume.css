@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color:rgb(233, 229, 229);
+}
+.navbar ul li {
+    list-style: none;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color:#212529;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+.input{
+    border: none;
+    border-bottom: 2px solid white;
+    width: 20rem;
+}
+.me{
+    background: linear-gradient(
+      106deg,
+      rgba(0, 0, 0, 0.2)50%,
+      rgba(0, 0, 0, 0.5)100%
+    ),
+     url(../image/person-2.jpg)no-repeat center center/cover;
+}

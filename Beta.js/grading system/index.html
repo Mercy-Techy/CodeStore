@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body
+    style="
+      background-color: chartreuse;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    "
+  >
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+      "
+    >
+      <div>
+        <h1 style="font-size: 4rem">Cephas grading system</h1>
+        <h2>Enter the details of your student</h2>
+      </div>
+      <div style="display: flex; margin-top: 2rem">
+        <input
+          type="text"
+          placeholder="Enter Matric"
+          id="mnn"
+          style="
+            height: 3rem;
+            width: 20rem;
+            border: none;
+            border-radius: 5px;
+            padding-left: 1rem;
+          "/>
+        <input
+          type="text"
+          placeholder="Enter Course"
+          id="crs"
+          style="
+            height: 3rem;
+            width: 20rem;
+            border: none;
+            border-radius: 5px;
+            padding-left: 1rem;
+            margin: 0 1rem;
+          "/>     
+        <input
+          type="text"
+          id="sore"
+          placeholder="Supply your score"
+          style="
+            height: 3rem;
+            width: 20rem;
+            border: none;
+            border-radius: 5px;
+            padding-left: 1rem;
+          "/>
+        <button
+          id="btn"
+          style="
+            border: none;
+            background-color: blue;
+            color: white;
+            padding:0rem 1rem;
+            margin-left: 3rem;
+            border-radius: 10px;
+          ">
+          Submit
+        </button>
+      </div>
+    </div>
+    <div id="stud" style="margin-top: 5rem; font-size: 1.5rem"></div>
+
+    <script src="grading.js"></script>
+  </body>
+</html>

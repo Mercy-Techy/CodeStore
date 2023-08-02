@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(10, 153, 209);
+}
+.display{
+
+}
+span{
+    color: red;
+    font-weight: bolder;
+}
+.label{
+    display: block;
+    font-weight: bold;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 60vh;
+    background-color: white;
+    margin: 0rem 25rem;
+    border-radius: 25px;
+    margin-top: 5rem;
+}
+button{
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    margin-right:20.5rem  ;
+
+}
+.input{
+    padding: 0 2rem;
+    width:25rem;
+    height: 4rem;
+    border: none;
+    border-bottom: 1px solid rgb(10, 153, 209);
+    background-color: white;
+    color: rgb(10, 153, 209);
+    font-size: 0.9rem;
+}
+h3{
+    color: black;
+    font-weight: bold;
+}
+
+/* this is another way of having a center color in a background color
+use one div use margin instead of width if not it will scatter the alignment

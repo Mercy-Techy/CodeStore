@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="demo"></div>
+    <script>
+      // given that x = 7,y = 2,z = 3
+      // var a = 25;
+      // var b = 70;
+      // var c = a + b;
+      // document.write(c);
+      // var x = 9;
+      // var y = 2;
+      // var z = 3;
+      // var ans = (x*x + y - z) / (y*y + 2*x);
+      // var myans = Math.round(ans)
+      // document.write(myans)
+      // JAVASCRIPT ARRAY
+      // let names = ["Ben","Mercy","Felix","Sharon","Femi","Grace","Rep","Queen","Tobi"];
+      // document.write(names.sort())
+      // document.write(names.reverse())
+      // document.write("The best three students are " + names.slice(0, 3))
+      // document.write("The best students are " + names.slice(3, 8))
+      // length of an array
+      //
+      // text = ""
+      // for(let i of names){
+      //     text += 'the name ' + names.indexOf(i) + ' is ' + i + '<br>';
+      // }
+      // document.write(text)
+      //   let names = ["mercy", "olamide", "jesuye", "arawole", "oluwagbemiro"];
+      //   text = "";
+      //   for (let i of names) {
+      //     if (names.indexOf(i) == 0) {
+      //       text += "My first name is " + i + "<br>";
+      //     } else if (names.indexOf(i) == 1) {
+      //       text += "My second name is " + i + "<br>";
+      //     } else if (names.indexOf(i) == 2) {
+      //       text += "My third name is " + i + "<br>";
+      //     } else if (names.indexOf(i) == 3) {
+      //       text += "My fourth name is " + i + "<br>";
+      //     } else {
+      //       text += "My last name is " + i + "<br>";
+      //     }
+      //   }
+      //   document.write(text)
+      let names = {
+        firstname: "mercy",
+        secondname: "olamide",
+        thirdname: "jesuye",
+        fourthname: "arawole",
+        lastname: "oluwagbemiro",
+      };
+      text = "";
+      for(let i in names){
+       if (i == 'firstname') {
+      text += "My first name is " + names[i] + "<br>";
+      } else if (i == 'secondname') {
+             text += "My second name is " + names[i] + "<br>";
+          } else if (i == 'thirdname') {
+            text += "My third name is " + names[i] + "<br>";
+           } else if (i == 'fourthname') {
+             text += "My fourth name is " + names[i] + "<br>";
+           } else {
+            text += "My last name is " + names[i] + "<br>";
+          }
+      } 
+      
+  
+      document.getElementById("demo").innerHTML = text;
+    </script>
+  </body>
+</html>
